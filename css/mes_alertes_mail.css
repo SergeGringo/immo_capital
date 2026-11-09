@@ -1,0 +1,267 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body .bas_courbe{
+  background-color: #090657;
+  /* position: relative; */
+  color: white;
+  padding: 80px 100px;
+  /* border-radius: 0px 0px 50px 50px; */
+  /* -webkit-border-radius: 0px 0px 50px 50px;
+  -moz-border-radius: 0px 0px 50px 50px;
+  -ms-border-radius: 0px 0px 50px 50px;
+  -o-border-radius: 0px 0px 50px 50px; */
+}
+.essai_courbe{
+    background-color: #090657;
+    padding: 20px;
+    border-radius: 0px 0px 50% 50%;
+
+}
+.alerte_return h1{
+    word-spacing: 5px;
+    padding-bottom: 20px;
+}
+.alerte_return h4{
+    font-weight: 400;
+    word-spacing: 5px;
+}
+.left_arrow{
+    display: flex;
+    align-items: center;
+    padding-bottom: 20px;
+}
+.left_arrow img{
+    width: 25px;
+    margin-right: 10px;
+}
+
+.tout_mails{
+    padding: 50px 100px;
+}
+
+.deux_mails{
+    display: flex;
+    align-items: center;
+    padding-bottom: 15px;
+    border-bottom: 1px solid rgb(170, 170, 170);
+   
+}
+.perso_rond{
+    display: flex;
+    margin-right: 120px;
+    align-items: center;
+}
+.bold_img{
+    border: 1px solid gray;
+    display: flex;
+    align-items: center;
+    height: 40px;
+    justify-content: center;
+    width: 40px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    margin-right: 25px;
+}
+.bold_img img{
+    width: 25px;
+}
+.two_mail,.mail_notif{
+ line-height: 25px;
+}
+.john_bold{
+    font-size: 18px;
+    font-weight: bold;
+}
+.loop_no{
+    margin-top: 50px;
+}
+.no_mail{
+    margin-right: 150px;
+}
+.no_mail h3{
+    font-size: 25px;
+    word-spacing: 3px;
+    padding-bottom: 20px;
+}
+.no_mail p{
+    line-height: 25px;
+    font-weight: 450;
+}
+.loop_no{
+    display: flex;
+}
+.no_mail button{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 8px 15px;
+    background-color: #090657;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    cursor: pointer;
+}
+.no_mail button img{
+    width: 20px;
+    margin-right: 5px;
+}
+.loop_eyes img{
+    width: 150px;
+}
+.answserquest{
+    margin-top: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+body .whent{
+    padding-top: 50px;
+}
+.whent .reseach{
+    width: 75%;
+    border-bottom: 1px solid gray;
+    margin: 0;
+}
+.answserquest h3{
+    font-size: 25px;
+}
+.answserquest .whent .reseach .reset1{
+    padding: 15px 5px;
+}
+.answserquest .whent .reseach .reset2{
+    padding: 15px 5px;
+}
+.answserquest .whent .reseach .reset3{
+    padding: 15px 5px;
+}
+.answserquest .whent .reseach .reset4{
+    padding: 15px 5px;
+}
+.answserquest .whent .reseach .reset5{
+    padding: 15px 5px;
+}
+.answserquest .whent .reseach .reset6{
+    padding: 15px 5px;
+}
+.answserquest .whent .reseach .reset7{
+    padding: 15px 5px;
+}
+.answserquest .whent .reseach .reset8{
+    padding: 15px 5px;
+}
+
+.sotitre p, .logaret p, .stooppeur p, .publieur p, .alterteurs p, .freeserv p, .buythey p{
+    line-height: 25px;
+}
+
+.sotitre,.logaret,.stooppeur,.publieur, .alterteurs, .freeserv, .buythey{
+    padding-bottom: 20px;
+}
+.answserquest #sotitre,#logaret,#stooppeur,#publieur, #alerteurs, #freeserv, #buythey{
+    display: none;
+}
+.answserquest .reset6, .reset7, .reset8{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+
+.reseach .modificator{
+    font-size: 16px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+}
+#unos{
+    display: none;
+}
+#doss{
+    display: none;
+}
+#tress{
+    display: none;
+}
+#qatro{
+    display: none;
+}
+#cinqo{
+    display: none;
+}
+#sixo{
+    display: none;
+}
+#septo{
+    display: none;
+}
+#khan{
+    display: flex;
+}
+#gnon{
+    display: flex;
+}
+#zan{
+    display: flex;
+}
+#nan{
+    display: flex;
+}
+#nou{
+    display: flex;
+}
+#blou{
+    display: flex;
+}
+#sien{
+    display: flex;
+}
+body .duty{
+    display: none;
+}
+
+.modal-footer .mod_cancel{
+    margin-right: 10px;
+    padding: 5px 10px ;
+    background-color: #fff;
+    border: 2px solid black;
+    color: black;
+    font-weight: bold;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+.mod_cancel:hover{
+    background-color: #f0f0f0;
+    cursor: pointer;
+}

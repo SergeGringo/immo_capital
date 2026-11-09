@@ -1,0 +1,650 @@
+@media(max-width: 1300px){
+
+    /* PUBLIER ANNONCE */
+ 
+    .puissance_immo{
+        padding: 70px 25px 10px 50px;
+    }
+    .very_simple{
+        padding: 25px 20px 25px 50px;
+    }
+    .amazed{
+        padding: 0 60px 25px 50px;
+    }
+    .large_part{
+        padding: 0 60px 25px 50px;
+    }
+    .troup_target{
+        padding-right: 10px;
+    }
+    .flexiblity{
+        align-items: normal;
+    }
+    .call_adviser{
+        padding: 15px 25px 10px 50px;
+    }
+    .blockeuse{
+        width: auto;
+    }
+    .licence_contract{
+        padding: 0 0 50px 50px;
+    }
+    .pleasure_ans{
+        padding: 0 0 50px 50px;
+    }
+   
+    .styl_foot .ele1{
+        padding: 50px 20px;
+    }
+   /* FIN */
+
+
+     /* RESPONSIVE DE LA PAGE ANNONCE ACHETER LOUER */
+
+     .publication_loueur{
+        left: 30%;
+     }  
+
+     /* FIN */
+
+
+
+     /* RESPONSIVE DE LA PAGE MODIFIER ANNONE */
+
+     .double_field{
+        align-items: center;
+    }
+    .tryer_step {
+        display: flex;
+        flex-direction: column;
+    }
+    .tryer_step .number_3{
+        width: auto;
+    } 
+
+     /* FIN */
+
+   }
+
+   
+
+
+@media(max-width: 1200px){
+    .anim{
+        top: 25%;
+        left: 2%;
+        font-size: 35px;
+        width: 50%;
+    }
+    .double_flèche{
+        width: auto;
+    }
+    .cartes{
+        padding: 0 15px;
+    }
+    .patron{
+        margin: 0;
+        justify-content: center;
+    }
+  
+
+         /* PUBLIER ANNONCE */
+
+         .puissance_immo{
+            padding: 70px 25px 10px 50px;
+        }
+        .very_simple{
+            padding: 25px 20px 25px 50px;
+        }
+        .amazed{
+            padding: 0 60px 25px 50px;
+        }
+        .large_part{
+            padding: 0 60px 25px 50px;
+        }
+        .troup_target{
+            padding-right: 10px;
+        }
+        .flexiblity{
+            align-items: normal;
+        }
+        .call_adviser{
+            padding: 15px 25px 10px 50px;
+        }
+        .blockeuse{
+            width: auto;
+        }
+        .licence_contract{
+            padding: 0 0 50px 50px;
+        }
+        .pleasure_ans{
+            padding: 0 0 50px 50px;
+        }
+    
+        /* FIN */
+
+
+        /* RESPONSIVE DE LA PAGE ANNONCE ACHETER LOUER */
+             
+
+        .publication_loueur{
+            left: 20%;
+         }  
+         #dalt_daller #dop2{
+          margin: 0 30px;
+         }
+
+        /* FIN */
+
+        /* RESPONSIVE DE LA PAGE MES ANNONCES */
+
+        .publication_loueur{
+            left: 20%;
+         }  
+         #dalt_daller #dop2{
+          margin: 0 30px;
+         }
+         body .container_wish{
+            padding: 10px;
+            padding-bottom: 130px;
+           }
+        #paint_head #dop2{
+            margin: 0 30px;
+        }
+        .suppression_corp{
+            left: 30%;
+        }
+
+        /* FIN */
+
+        /* RESPONSIVE DE LA PAGE MODIFIER ANNONCE */
+
+        #custom_body .deux_quatorze{
+            padding: 50px;
+        }
+        .tryer_step {
+            display: flex;
+            flex-direction: column;
+        }
+        .tryer_step .number_3{
+            width: auto;
+        } 
+    
+        #custom_body #dop2{
+            margin: 0 50px;
+        }
+
+        /* FIN */
+
+   
+   }
+   @media(max-width: 999px){
+     
+      header{
+       padding: 0;
+       z-index: 9;
+      }
+      .navbar{
+       height: 60px;
+       display: flex;
+      }
+      .favoris_profil{
+       position: absolute;
+       right: 0;
+      }
+      .favoris_profil p{
+       display: none;
+      }
+      .favoris_profil .fleur{
+       display: flex;
+      }
+      .lop, #dop2{
+       display: none;
+      }
+      .logo{
+       padding-left: 50px;
+      }
+      
+
+      .styl_foot{
+         display: inline-flex;
+      }
+      .ele1{
+         padding: 20px;
+      }
+      .anim{
+        top: 30%;
+        left: 2%;
+        font-size: 30px;
+        width: 53%;
+
+      }
+      .cartes{
+        padding: 0;
+        justify-content: space-around;
+        height: 350px;
+      }
+      .cartes img{
+        width: 70px;
+      }
+      .cali, .cali1, .cali2{
+        width:30%;
+      }
+      .cartes h4{
+        font-size: 20px;
+      }
+      .cartes p{
+        font-size:15px ;
+      }
+      .meil{
+        text-align: center;
+        margin-top: 50px;
+        margin-bottom: 50px;
+      }
+      .patron{
+        margin: 0;
+        justify-content: center;
+      }
+      .double_flèche{
+        width: auto;
+      }
+      .corp{
+        width: auto;
+      }
+     .picts h4{
+        font-size: 15px;
+     }
+     .picts p{
+        font-size: 15px;
+     }
+
+     
+        /* PUBLIER ANNONCE */
+
+        .puissance_immo{
+            padding: 50px 25px 10px 50px;
+        }
+        .very_simple{
+            padding: 25px 0 25px 50px;
+        }
+        .amazed{
+            padding: 0 60px 25px 50px;
+        }
+        .large_part{
+            padding: 0 60px 25px 50px;
+        }
+        .large_part h3{
+            text-align: center;
+        }
+        .troup_target{
+            padding-right: 10px;
+        }
+        .flexiblity{
+            align-items: normal;
+        }
+        .call_adviser{
+            padding: 15px 25px 10px 50px;
+        }
+        .blockeuse{
+            width: auto;
+        }
+        .licence_contract{
+            padding: 0 0 50px 50px;
+        }
+        .pleasure_ans{
+            padding: 0 0 50px 50px;
+        }
+    
+        /* FIN */
+
+        /* RESPONSIVE DE LA PAGE ANNONCE ACHETER LOUER */
+
+        .publication_loueur{
+            left: 12%;
+         }  
+
+        /* FIN */
+
+        /* RESPONSIVE DE LA PAGE MES ANNONCES */
+
+        body .container_wish{
+            padding: 10px;
+            padding-bottom: 90px;
+           }
+          .duplicata{
+            display: flex;
+            flex-direction: column;
+          }
+          .duplicateur_annonce{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-left: none;
+            border-top: 1px solid rgb(165, 165, 165);
+          }
+          .dupliqueur{
+            display: flex;
+            flex-direction: column;
+        }
+        .suppression_corp{
+            left: 20%;
+        }
+
+        /* FIN */
+
+
+        /* RESPONSIVE DE LA PAGE MODIFIER ANNONCE */
+
+        #custom_body .deux_quatorze{
+            padding: 10px;
+        }
+        .emperor{
+            align-items: end;
+        }
+        .tryer_step {
+            display: flex;
+            flex-direction: column;
+        }
+        .tryer_step .number_3{
+            width: auto;
+        }
+
+        /* FIN */
+
+      
+   }
+   @media(max-width: 600px){
+     .styl_foot{
+      display: block;
+     }
+ 
+     #droit{
+      font-size: 10px;
+     }
+    
+     body .pict{
+         /* height:auto; */
+         width: 100%;
+     }
+     .cartes{
+        display:inline-block;
+        padding-left: 5%;
+        padding-right: 5%;
+        height: auto;
+      
+     }
+
+     .anim{
+        left: 2%;
+        top: 25%; 
+        width: 80%;
+    }
+    .anim h1{
+        font-size: 35px;
+    }
+    .trouvrez{
+        margin-top: 20px;
+    }
+    .trouvrez h3{
+        font-weight: normal;
+        font-size: 20px;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    .meil h1{
+        font-size: 25px;
+    }
+    .cali, .cali1, .cali2{
+        width: auto;
+        margin-bottom: 10px;
+    }
+    .cali img, .cali1 img, .cali2 img{
+        width: 90px;
+       
+    }
+    .bull{
+        margin-top: 20px;
+    }
+    .grap{
+        margin-top: 30px;
+    }
+    .grap h3{
+        font-size: 25px;
+        text-transform: capitalize;
+    }
+    .sec{
+        margin-top: 30px;
+    }
+    .sec h3{
+        font-size: 25px;
+        text-transform: capitalize;
+    }
+    .patron{
+        display:inline-block;
+        padding: 10px;
+       
+    }
+    .sec1,.sec2,.sec3{
+        width: auto;
+        margin-bottom: 20px;
+    }
+    .sec1 .butn{
+        display: none;
+    }
+    .sec3 .butn{
+        display:block;
+    }
+    .fond_or{
+        margin-top: 60px;
+    }
+    .double_flèche{
+        margin-left: auto;
+        text-align: center;
+    }
+    .double_flèche h2{
+        font-size: 20px;
+    }
+    .centrale,.centrale2{
+        justify-content: center;
+    }
+    .ilement{
+        margin-left: 15px;
+    }
+     
+      /* PUBLIER ANNONCE */
+
+.puissance_immo{
+    padding: 25px 10px 10px 10px;
+}
+.take_profit h1{
+    font-size: 33px;
+    padding-bottom: 30px;
+}
+.take_profit p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 15px;
+}
+.take_profit button{
+    padding: 10px 15px;
+}
+
+.very_simple{
+    padding: 25px 60px 50px 20px;
+}
+.step_by{
+    flex-direction: column;
+}
+.step_one{
+    padding-bottom: 20px;
+}
+.step_one button{
+    display: none;
+}
+.step_one #vapor{
+    display: block;
+}
+.amazed{
+    padding: 0 10px 25px 20px;
+}
+.circle_pict img{
+    width: 150px;
+    height:150px;
+}
+.large_part{
+    padding: 15px 10px 25px 20px;
+}
+.flexiblity{
+    flex-direction: column;
+}
+.call_adviser{
+    padding: 15px 60px 25px 20px;
+}
+.blockeuse{
+    width: auto;
+}
+.licence_contract{
+    padding: 0 0 50px 20px;
+}
+.pleasure_ans{
+    padding: 0 0 50px 20px;
+}
+ /* FIN */
+
+
+ /* RESPONSIVE DE LA PAGE ANNONCE ACHETER LOUER */
+
+
+ .publication_loueur{
+    left: 13px;
+    width: 350px;
+   }
+
+
+ /* FIN */
+
+
+ /* RESPONSIVE DE LA PAGE MES ANNONCES */
+
+ body .container_wish{
+    padding: 10px;
+   }
+    .duplicata{
+        display: flex;
+        flex-direction: column;
+    }
+    .notif_annonce{
+        display: flex;
+        flex-direction: column;
+    }
+    #suite_point{
+        display: block;
+    }
+    .notif_annonce img{
+        width: auto;
+        height: 200px;
+    }
+    .projet_appercu{
+        margin-left: 0;
+    }
+    .duplicateur_annonce{
+        border: none;
+        padding-left: 0;
+        padding-right: 0;
+        display: flex;
+       display: block;
+        
+    }
+    .dupliqueur{
+        display: flex;
+        flex-direction: column;
+    }
+    .suppression_corp{
+        left: 0;
+    }
+
+ /* FIN */
+
+
+ /* RESPONSIVE DE LA PAGE MODIFIER ANNONCE */
+
+ #custom_body .deux_quatorze{
+    padding: 10px;
+}
+.look_at{
+    display: flex;
+    flex-direction: column;
+}
+.emperor{
+    align-items: end;
+}
+.digit_street{
+    display: flex;
+    flex-direction: column;
+}
+.digit_street .number_un{
+width: auto;
+margin-bottom: 15px;
+}
+.tryer_step{
+width: auto;
+display: flex;
+flex-direction: column;
+}
+.number_deux input{
+width: 100%;
+}
+.tryer_step .number_3{
+width: auto;
+margin-top: 15px;
+}
+.diff_etat .publie{
+padding-left: 10px;
+}
+.allow_coast .appart_paiement{
+width: auto;
+}
+.ranger_terciaire .rangee_primaire, .ranger_terciaire .rangee_secondaire{
+width: auto;
+}
+.ranger_terciaire{
+display: flex;
+flex-direction: column;
+}
+.caractared{
+width: auto;
+}
+.trois_documents, .deux_documents, .document_spec{
+width: auto;
+}
+.trois_documents .document_1, .deux_documents .document_1{
+margin-bottom: 15px;
+}
+.trois_documents, .deux_documents, .document_spec{
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+.document_spec .doc_spe1{
+margin-bottom: 15px;
+}
+.double_field{
+display: flex;
+flex-direction: column;
+align-items: normal;
+}
+.double_field .field_1, .double_field .field_2{
+margin-bottom: 15px;
+width: auto;
+}
+.inpo_essaie{
+width: auto;
+}
+.derniere_publication{
+display: flex;
+flex-direction: column;
+line-height: 45px;
+margin-top: 50px;
+}
+
+ /* FIN */
+
+}

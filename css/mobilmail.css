@@ -1,0 +1,150 @@
+
+@media(max-width: 1368px){
+
+/* RESPONSIVE DE LA PAGE VOS ALERTES */
+
+    #envellope_chared .yours_alarms{
+        width: auto;
+    }
+    #envellope_chared .bas_courbe{
+        padding: 90px 100px;
+    }
+    /* FIN */
+  
+}
+@media(max-width: 1200px){
+
+    /* RESPONSIVE DE MON MAIL INDEX */
+
+    body .my_hole{
+        padding: 200px 100px;
+    }
+    /* FIN */
+
+
+
+    /* RESPONSIVE DE LA PAGE VOS ALERTES */
+
+    #envellope_chared .yours_alarms{
+        width: auto;
+    }
+    #envellope_chared .bas_courbe{
+        padding: 90px 100px;
+    }
+
+    /* FIN */
+
+}
+@media(max-width: 999px){
+
+    /* RESPONSIVE DE MON MAIL INDEX */
+
+    body .my_hole{
+        padding: 70px 100px;
+    }
+
+    /* FIN */
+
+
+
+    /* RESPONSIVE DE LA PAGE VOS ALERTES */
+
+    #envellope_chared .yours_alarms{
+        width: auto;
+    }
+
+    #envellope_chared .bas_courbe{
+        padding: 70px 100px;
+    }
+    #envellope_chared .tout_mails{
+        padding: 50px;
+    }
+
+    #envellope_chared .suppression_corp{
+        left: 30%;
+    }
+
+    /* FIN */
+
+}
+
+@media(max-width: 600px){
+
+    /* RESPONSIVE DE MON MAIL INDEX */
+
+    body .my_hole{
+        padding: 70px 30px;
+    }
+    
+     /* FIN */
+
+
+     /* RESPONSIVE DE LA PAGE MES ALERTES E-MAIL */
+
+     body .bas_courbe{
+        padding: 60px 15px 10px 10px;
+     }
+
+     .tout_mails{
+        padding: 50px 10px;
+     }
+     .perso_rond{
+        margin-right: 50px;
+     }
+     .loop_no{
+        flex-direction: column;
+        margin-bottom: 20px;
+     }
+     .no_mail{
+        margin-right: 10px;
+     }
+     .loop_eyes{
+        margin-top: 20px;
+     }
+     .whent .reseach{
+        width: auto;
+     }
+    /* FIN */
+
+    /* RESPONSIVE DE LA PAGE VOS ALERTES */
+
+    #envellope_char .yours_alarms{
+        width: auto;
+    }
+
+    #envellope_chared .bas_courbe{
+        padding: 70px 10px;
+    }
+    #envellope_chared .tout_mails{
+        padding: 50px 10px;
+    }
+
+    .appart_max .critere_search{
+        flex-direction: column;
+    }
+    .river_alerte .clap_news{
+        text-align: center;
+    }
+    .local_min{
+      padding-bottom: 20px;
+    }
+    .p_hor{
+        padding-top: 20px;
+    }
+    .bas_appart{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .active_all{
+        width: 100%;
+    }
+    .grid_gray{
+        padding-left: 20px;
+        padding-top: 20px;
+    }
+    #envellope_chared .suppression_corp{
+        left: 15%;
+    }
+    /* FIN */
+
+}

@@ -1,0 +1,48 @@
+
+@media(max-width: 1380px){
+   .centrer{
+    width: auto;
+   }
+   .logo1, .mdp, .connect,.rad, .controle, .bbttnn {
+    margin-left: 20%;
+    margin-right: 20%;
+ }
+   }
+@media(max-width: 1200px){
+   .centrer{
+    width: auto;
+   }
+   
+   }
+   @media(max-width: 999px){
+     .centrer{
+        width: auto;
+     }
+      
+   }
+   @media(max-width: 600px){
+    .centrer{
+        width: auto;
+    }
+    .copy{
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .copy p{
+        font-size: 10px;
+    }
+     .verificateur1 img{
+    width: 20px;
+     }
+     .radio_verif p{
+        padding-left: 5px;
+        font-size: 14px;
+     }
+     .controle p{
+        font-size: 15px;
+     }
+     .logo1, .mdp, .connect,.rad, .controle, .bbttnn {
+        margin-left: 5%;
+        margin-right: 5%;
+     }
+   }

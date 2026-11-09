@@ -1,0 +1,281 @@
+
+@media(max-width: 1368px){
+   
+      .trap{
+        height: auto;
+      }
+    }
+@media(max-width: 1200px){
+   
+      .form{
+        left: 5%;
+      }
+      .modal-footer, .modal-header{
+       width: 88%;
+      }
+      /* .modal-footer{
+        bottom:5%;
+      } */
+      .modal-form{
+        width: 90%;
+      } 
+
+      .modal-form .modal-footer{
+         bottom: 3.5%; 
+ 
+        /* margin-bottom:5%; */
+        width: 88%;
+      }
+      .trap {
+        height: auto;
+       }
+       .navbar #dop2{
+        margin: 0 50px;
+       }
+   
+   }
+   @media(max-width: 999px){
+     
+      .image_favoris_2{
+       display: block;
+      }
+      .principal_02, .principal_01{
+       width: 100%;
+       padding-bottom: 10px;
+      }
+      .first_img img{
+       height: 500px;
+       border-top-right-radius: 15px;
+       border-bottom-left-radius:none;
+      }
+      .multiple_img .images_01 img{
+         border-bottom-left-radius: 0;
+      }   
+      
+      
+      
+      .navbar{
+       height: 60px;
+       display: flex;
+      }
+      .favoris_profil{
+       position: absolute;
+       right: 0;
+      }
+      .favoris_profil p{
+       display: none;
+      }
+      .favoris_profil .fleur{
+       display: flex;
+      }
+      .lop, #dop2{
+       display: none;
+      }
+      .logo{
+       padding-left: 0;
+      }
+      
+      .styl_foot{
+         display: block;
+      }
+
+      .part0 .part1{
+        padding: 0;
+        padding-right: 20px;
+      
+      }
+      .part0{
+       display:flex;
+       justify-content: space-between;
+        padding: 60px 25px;
+        
+
+      }
+
+
+       .form{
+        left: 3;
+      }
+      .modal-footer, .modal-header{
+       width: 88%;
+      }
+      .modal-footer{
+        bottom:30px;
+      }
+      .modal-form{
+        width: 90%;
+      } 
+
+      .modal-form .modal-footer{
+        /* bottom: 5px; */
+ 
+        /* margin-bottom:5%; */
+        width: 88%;
+      }
+
+      
+      /* .ele1{
+        padding: 20px;
+     }
+     .modal-form{
+       width: 95%;
+     }
+   
+     .part0 .part1{
+       padding: 0;
+       padding-right: 20px;
+     
+     }
+     .part0{
+      display:flex;
+      flex-direction: column;
+       padding: 60px 25px;
+    
+     } */
+
+
+     /* .image{
+       height: 150vh;
+   } */
+   /* .image img{
+       height: 150vh;
+   } */
+
+
+     /* .form{
+       left: 3;
+     }
+     .modal-footer, .modal-header{
+      width: 90%;
+     }
+     .modal-footer{
+       bottom: 12px;
+     }
+    .trap h4{
+       font-size: 16px;
+    }
+    .trap{
+       height: auto;
+    }
+    .part0 .part1 h3{
+       font-size: 20px;
+       text-decoration: underline;
+    } */
+  
+     .ele1{
+      padding: 70px;
+    display: inline-table;
+
+     }
+
+     .boxe{
+      padding: 2px 0;
+    }
+    .fus{
+      padding-bottom: 5px;
+    }
+    .bttn{
+      margin-bottom: 5px;
+    }
+    .calc2{
+      width: 70%;
+    }
+    .calc{
+      width: 30%;
+    }
+  
+
+    
+   }
+
+
+   @media(max-width: 600px){
+     .styl_foot{
+      display: block;
+     }
+     .first_img img {
+      height:auto;
+     }
+     #droit{
+      font-size: 10px;
+     }
+     
+     
+
+     .ele1{
+        padding: 20px;
+     }
+     .modal-form{
+       width: 95%;
+     }
+   
+     .part0 .part1{
+       padding: 0;
+       padding-right: 20px;
+     
+     }
+     .part0{
+      display:flex;
+      flex-direction: column;
+       padding: 60px 25px;
+       
+
+     } 
+     .ele1{
+      display: block;
+     }
+     /* .image{
+       height: 150vh;
+   } */
+   /* .image img{
+       height: 150vh;
+   } */
+     .form{
+       left: 3;
+       top: 10%;
+     }
+     .modal-footer, .modal-header{
+      width: 90%;
+     }
+     .modal-form .modal-footer{
+       bottom: 5px;
+
+       margin-bottom:5%;
+       width: 90%;
+     }
+    .trap h4{
+       font-size: 16px;
+    }
+    .trap{
+       height: auto;
+    }
+    .part0 .part1 h3{
+       font-size: 20px;
+       text-decoration: underline;
+    } 
+    .image img{
+      height:60vh;
+    }
+    .trap h4{
+      font-size: 15px;
+    }
+    .trap{
+      padding: 10px;
+    }
+    .boxe{
+      padding: 2px 0;
+    }
+    .fus{
+      padding-bottom: 5px;
+    }
+    .bttn{
+      margin-bottom: 5px;
+    }
+    .calc2{
+      width: 70%;
+    }
+    .calc{
+      width: 30%;
+    }
+
+   }

@@ -1,0 +1,346 @@
+
+@media(max-width: 1380px){
+   .imprimer, #imprimeur{
+    width:auto;
+   }
+   .espaces{
+    margin-left: 10px;
+    margin-right: 10px;
+   }
+    
+    }
+@media(max-width: 1200px){
+   
+    body #contenu_center{
+        padding: 90px 50px 50px 50px;
+      }
+      /* #contenu_center .back{
+       flex-direction: ;
+      } */
+      .back .retour{
+       padding-bottom: 10px;
+      }
+      .back .imprimer{
+       width: 50%;
+      }
+      .back .imprimer img{
+       width: 20px;
+      }
+      .grande_image{
+       height: 400px;
+      }
+      /* .grande_image .voir_plus{
+       left: 4%;
+       top: 35%;
+      } */
+      /* .voir_plus a button{
+       padding: 5px;
+       font-size: 12px;
+      } */
+      .deux_places{
+       flex-direction: column;
+      }
+      .deux_places .element_appart{
+        width: auto;
+      }
+      .element_appart .appart1{
+       flex-direction: row;
+      }
+      .deux_places .real_state{
+       width: auto;
+       margin-top: 20px;
+      }
+      #contenu_center .projet{
+       width: auto;
+       border-radius: 10px;
+       -webkit-border-radius: 10px;
+       -moz-border-radius: 10px;
+       -ms-border-radius: 10px;
+       -o-border-radius: 10px;
+    }
+      .projet .listing{
+       line-height: 33px;
+      }
+      #contenu_center .caractère{
+       width: auto;
+      }
+      #contenu_center .description p{
+       line-height: 35px;
+      }
+      .fax .exemplaire{
+       width: auto;
+      }
+      .affiche .réf{
+       width: auto;
+       justify-content: normal;
+       font-size: 15px;
+      }
+      .réf .no_annonce{
+       padding-right: 10px;
+      }
+      .objet_similaire .ligne_carte{
+       /* display: ruby; */
+      }
+      .ligne_carte .rue_1{
+       margin-bottom: 10px;
+      }
+      .objet_similaire .ligne_carte .rue_1{
+        margin-right: 20px;
+      }
+      #contenu_center .case{
+       width: 30%;
+      }
+      .ele1{
+        padding: 30px;
+      }
+      .modal_annonce .modal_centre{
+        width: 40%;
+        height: auto;
+        margin-top: 300px;
+       }
+
+ 
+ }
+ @media(max-width: 999px){
+   
+    .navbar{
+     height: 60px;
+     display: flex;
+    }
+    .favoris_profil{
+     position: absolute;
+     right: 0;
+    }
+    .favoris_profil p{
+     display: none;
+    }
+    .favoris_profil .fleur{
+     display: flex;
+    }
+    .lop, #dop2{
+     display: none;
+    }
+    .logo{
+     padding-left: 0;
+    }
+    
+    .styl_foot{
+       display: ruby;
+    }
+
+    .part0 .part1{
+      padding: 0;
+      padding-right: 20px;
+    
+    }
+    .part0{
+     display:flex;
+     justify-content: space-between;
+      padding: 60px 25px;
+    }
+
+   .ele1{
+    padding: 70px;
+  display: inline-table;
+
+   }
+
+
+   body #contenu_center{
+    padding: 90px 50px 50px 50px;
+  }
+  #contenu_center .back{
+   flex-direction: column;
+  }
+  .back .retour{
+   padding-bottom: 10px;
+  }
+  .back .imprimer{
+   width: auto;
+  }
+  .back .imprimer img{
+   width: 20px;
+  }
+  .grande_image{
+   height: 200px;
+  }
+  /* .grande_image .voir_plus{
+   left: 4%;
+   top: 35%;
+  } */
+  .voir_plus a button{
+   padding: 5px;
+   font-size: 12px;
+  }
+  .deux_places{
+   flex-direction: column;
+  }
+  .deux_places .element_appart{
+    width: auto;
+  }
+  .element_appart .appart1{
+   flex-direction: row;
+  }
+  .deux_places .real_state{
+   width: auto;
+   margin-top: 20px;
+  }
+  #contenu_center .projet{
+   width: auto;
+   border-radius: 10px;
+   -webkit-border-radius: 10px;
+   -moz-border-radius: 10px;
+   -ms-border-radius: 10px;
+   -o-border-radius: 10px;
+}
+  .projet .listing{
+   line-height: 33px;
+  }
+  #contenu_center .caractère{
+   width: auto;
+  }
+  #contenu_center .description p{
+   line-height: 35px;
+  }
+  .fax .exemplaire{
+   width: auto;
+  }
+  .affiche .réf{
+   width: auto;
+   justify-content: normal;
+   font-size: 15px;
+  }
+  .réf .no_annonce{
+   padding-right: 10px;
+  }
+  .objet_similaire .ligne_carte{
+   display: ruby;
+  }
+  .ligne_carte .rue_1{
+   margin-bottom: 10px;
+  }
+  #contenu_center .case{
+   width: 30%;
+  }
+    .modal_annonce .modal_centre{
+    width: 40%;
+    height: auto;
+    margin-top: 300px;
+   }
+  
+ }
+ @media(max-width: 600px){
+
+   .styl_foot{
+    display: block;
+   }
+   #droit{
+    font-size: 10px;
+   }
+   
+   .ele1{
+      padding: 20px;
+   }
+   .modal-form{
+     width: 95%;
+   }
+ 
+   .part0 .part1{
+     padding: 0;
+     padding-right: 20px;
+   
+   }
+   .part0{
+    display:flex;
+    flex-direction: column;
+     padding: 60px 25px;
+     
+
+   } 
+   .ele1{
+    display: block;
+   }
+   
+   body #contenu_center{
+     padding: 90px 10px 50px 10px;
+   }
+   #contenu_center .back{
+    flex-direction: column;
+   }
+   .back .retour{
+    padding-bottom: 10px;
+   }
+   .back .imprimer{
+    width: auto;
+   }
+   .back .imprimer img{
+    width: 20px;
+   }
+   .grande_image{
+    height: 200px;
+   }
+   /* .grande_image .voir_plus{
+    left: 4%;
+    top: 35%;
+   } */
+   .voir_plus a button{
+    padding: 5px;
+    font-size: 12px;
+   }
+   .deux_places{
+    flex-direction: column;
+   }
+   .deux_places .element_appart{
+     width: auto;
+   }
+   .element_appart .appart1{
+    flex-direction: column;
+   }
+   .deux_places .real_state{
+    width: auto;
+    margin-top: 20px;
+   }
+   #contenu_center .projet{
+    width: auto;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+   .projet .listing{
+    line-height: 33px;
+   }
+   #contenu_center .caractère{
+    width: auto;
+   }
+   #contenu_center .description p{
+    line-height: 35px;
+   }
+   .fax .exemplaire{
+    width: auto;
+   }
+   .affiche .réf{
+    width: auto;
+    justify-content: normal;
+    font-size: 15px;
+   }
+   .réf .no_annonce{
+    padding-right: 10px;
+   }
+   .objet_similaire .ligne_carte{
+    flex-direction: column;
+   }
+   .ligne_carte .rue_1{
+    margin-bottom: 10px;
+   }
+   #contenu_center .case{
+    width: 80%;
+   }
+   .modal_annonce .modal_centre{
+    width: 80%;
+    height: auto;
+    margin-top: 300px;
+   }
+
+ }

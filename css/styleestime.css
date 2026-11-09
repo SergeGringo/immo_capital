@@ -1,0 +1,477 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.diminue i{
+    margin-left: 10px;
+}
+.favoris_profil p{
+    display: flex;
+    align-items: center;
+    margin-right: 25px;
+}
+.favoris_profil .marge:hover{
+    background-color: none;
+}
+.favoris_profil #pysste{
+    padding: 17px 3px;
+    border-bottom: 3px solid orange;
+}
+.favoris_profil #pysste:hover{
+    background-color: #f0f0f0;
+    cursor: pointer;
+}
+.photo_parent{
+    width: 100%;
+    height: 650px;
+    background-image: url('../images/photo_parent/wepik-export-20240110143139Q9HW.jpeg');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+.navbar .lop{
+    border-bottom: none;
+}
+.navbar select{
+    border: none;
+    font-weight: bold;
+}
+.exemplaire{
+    cursor: pointer;
+}
+ #listor{
+    display: none;
+    position: absolute;
+     /* right: 44%; */
+    top: 7%;
+    background-color:white;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    z-index: 9;
+    padding: 20px 0;
+    
+}
+ #listor #chut_off{
+    flex-direction:column;
+    align-items: flex-start;
+}
+#chut_off li{
+    display: flex;
+    padding: 0;
+    padding: 10px 15px;
+    width: 100%;
+}
+#chut_off li:hover{
+  background-color: #f0f0f0;
+  cursor: pointer;
+}
+#chut_off li img{
+    width: 20px;
+    margin-right: 10px;
+}
+.quelle_valeur{
+    background-color: #fff;
+    position: absolute;
+    padding: 20px 15px 10px 15px;
+    top: 120px;
+    left: 90px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+.quelle_valeur h2{
+    padding-bottom: 15px;
+}
+.quelle_valeur p{
+    line-height: 25px;
+    font-size: 14px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.quelle_valeur h3{
+    padding-top: 10px;
+}
+.mais_appart{
+   margin-top: 30px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   /*background-color: #f1bebe;
+   */justify-content: space-between;
+   padding: 0 50px;
+}
+.appartement7, .maison7{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.appartement7 img, .maison7 img{
+    width: 60px;
+}
+.appartement7 button, .maison7 button{
+    border: none;
+    background-color: orange;
+    color: white;
+    padding: 5px 30px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.what_value button:hover{
+    background-color: rgb(250, 115, 24);
+    cursor: pointer;
+}
+
+.listeur_check{
+    margin-top: 30px;
+    border-top: 2px solid  rgb(109, 105, 105);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 5px;
+}
+.listeur_check p{
+    display: flex;
+    align-items: center;
+font-weight: 500;
+}
+.listeur_check p img{
+    width: 20px;
+    margin-right: 3px;
+}
+.contenu_document{
+    padding: 50px 100px;
+}
+.saized_inf{
+    display: flex;
+    align-self: center;
+    justify-content: space-between;
+}
+.necessary h3{
+    padding-bottom: 20px;
+    font-size: 25px;
+}
+.necessary p{
+    font-size: 16px;
+    line-height: 25px;
+}
+.necessary #colum{
+  padding-bottom: 15px;
+}
+.necessary #valor{
+    padding-top: 15px;
+}
+.numeroteur_inf{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-items: flex-start;
+}
+.item {
+    display: flex;
+    flex-direction: column; /* Changer la direction pour empiler le cercle et le trait */
+    align-items: center; /* Centrer les éléments horizontalement */
+}
+
+.phrase {
+    margin-top: 10px; /* Espace entre le trait et la phrase */
+    font-weight: bold;
+   color:  rgb(65 78 153);
+    font-size: 25px;
+    padding-left: 20px;
+}
+
+.circle {
+    width: 50px; /* Diamètre du cercle */
+    height: 50px; /* Diamètre du cercle */
+    border-radius: 50%; /* Pour faire un cercle */
+    background-color: rgb(65 78 153); /* Couleur de fond du cercle */
+    color: #fff;
+    display: flex;
+    font-size: 20px;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold; /* Pour mettre le nombre en gras */
+}
+
+.separator {
+    width: 3px; /* Largeur du trait */
+    height: 25px; /* Hauteur du trait */
+    background-color: rgb(65 78 153);; /* Couleur du trait */
+    margin: 5px 0; /* Marge autour du trait */
+}
+.parreur{
+    display: flex;
+    
+}
+.all_transport{
+    padding-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.luminosity img{
+    width: 700px;
+}
+.how_calculate h3{
+    padding-bottom: 20px;
+    font-size: 25px;
+}
+.how_calculate p{
+    line-height: 35px;
+}
+.how_calculate button{
+    border: none;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    padding:10px;
+    background-color: orange;
+    color: #fff;
+    font-weight: bold;
+    margin-top: 10px;
+
+}
+.how_calculate button:hover{
+    background-color: rgb(255, 123, 0);
+    cursor: pointer;
+}
+.maybe{
+    padding-top: 100px;
+}
+.maybe h3{
+    font-size: 25px;
+}
+.whent{
+    padding-top: 50px;
+}
+.whent .reseach{
+    width: 75%;
+    border-bottom: 1px solid gray;
+    margin: 0;
+}
+
+.whent .reseach .reset1{
+    padding: 10px 5px;
+}
+.whent .reseach .reset2{
+    padding: 10px 5px;
+}
+.whent .reseach .reset3{
+    padding: 10px 5px;
+}
+.whent .reseach .reset4{
+    padding: 10px 5px;
+}
+.whent .reseach .reset5{
+    padding: 10px 5px;
+}
+.sotitre p, .logaret p, .stooppeur p, .publieur p{
+    line-height: 25px;
+}
+
+.sotitre,.logaret,.stooppeur,.publieur{
+    padding-bottom: 20px;
+}
+#sotitre,#logaret,#stooppeur,#publieur{
+    display: none;
+}
+
+.reseach .modificator{
+    font-size: 16px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+}
+#unos{
+    display: none;
+}
+#doss{
+    display: none;
+}
+#tress{
+    display: none;
+}
+#qatro{
+    display: none;
+}
+#khan{
+    display: flex;
+}
+#gnon{
+    display: flex;
+}
+#zan{
+    display: flex;
+}
+#nan{
+    display: flex;
+}
+
+/* STYLE DE LA PAGE PARAMETRE */
+
+
+body .para_contenu{
+    padding: 50px 100px;
+    line-height: 25px;
+}
+.para_contenu h2{
+    font-size: 30px;
+}
+.element_para h3{
+    padding-top: 30px;
+}
+.element_para img{
+    width: 25px;
+}
+.element_para .verif_mail{
+    display: flex;
+    align-items: flex-end;
+}
+.isake{
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+}
+.isake p{
+    color: #2effc0;
+}
+.coulor_exp{
+    color: rgb(21, 181, 255);
+    cursor: pointer;
+}
+
+
+/* STYLE DE LA PAGE CHANGEMENT DE NOM DUTILISATEUR */
+
+body .other_name{
+    padding: 50px 100px;
+}
+.other_name h2{
+    padding-bottom: 25px;
+}
+.other_name p{
+    padding-bottom: 30px;
+}
+.name_util{
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+}
+.name_util label{
+    font-weight: bold;
+    padding-bottom: 5px;
+}
+.name_util input{
+    padding: 8px 5px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+.cancel_reg{
+    padding-top: 20px;
+    width: 500px;
+    display: flex;
+    justify-content: space-between;
+}
+.cancel_reg #ann,.register_ann #ann{
+    padding: 8px 10px;
+    border:1px solid gray;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    background-color: #fff;
+    color: black;
+    font-weight: bold;
+}
+.cancel_reg #ann:hover, .register_ann #ann:hover{
+    text-decoration: underline;
+    background-color: #f0f0f0;
+    cursor: pointer;
+}
+.cancel_reg #enr, .register_ann #enr{
+    padding: 8px 10px;
+    border: none;
+    background-color: orange;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+.cancel_reg #enr:hover,.register_ann #enr:hover{
+ background-color: #ff7920;
+ cursor: pointer;
+}
+
+
+
+
+/* STYLE DE LA PAGE CHANGMEMENT DE MOT DE PASSE */
+
+body .your_count{
+    padding: 50px 100px;
+}
+.your_count h2{
+    padding-bottom: 25px;
+}
+.your_count h3{
+    padding-bottom: 30px;
+}
+.last_pass, .new_pass{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.last_pass label{
+    margin-right: 50px;
+    font-weight: bold;
+}
+.new_pass label{
+    margin-right: 40px;
+     font-weight: bold;
+}
+.last_pass input, .new_pass input{
+    padding: 8px 15px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+.observateur_suivi{
+    padding-left: 180px;
+}
+.observateur_suivi .radio_suivi{
+    display: flex;
+    align-items: center;
+    line-height: 30px;
+}
+.radio_suivi img{
+    width: 20px;
+    margin-right: 10px;
+}
+.register_ann{
+    /* background-color: #ffc8c8; */
+    width: 390px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}

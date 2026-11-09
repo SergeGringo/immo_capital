@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body .acheter_fond{
+    width: 100%;
+    height: 650px;
+    background-image: url('../Images/picture/jon-nathon-stebbe-paydk0JcIOQ-unsplash.jpg');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+.publication_loueur{
+    background-color: #fff;
+    position: absolute;
+    padding: 30px;
+    top:50px;
+    left: 650px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    width: 600px;
+}
+
+.contenu_publique h2{
+    font-size: 25px;
+    padding-bottom: 30px;
+}
+.je_publie{
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    margin-bottom: 15px;
+}
+.je_publie label{
+    font-weight: bold;
+    padding-bottom: 5px;
+}
+.je_publie select{
+    padding: 8px;
+    border: 1px solid rgb(199, 199, 199);
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+.mobility_at label{
+    font-weight: bold;
+}
+.mobility_at .choix_raid{
+    display: flex;
+    margin-top: 5px;
+   
+}
+.choix_raid label{
+    font-weight: normal;
+}
+.king_cath{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+.king_cath .cathe_1{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+}
+.cathe_1 label, .cathe_2 label{
+    font-weight: bold;
+    padding-bottom: 5px;
+}
+.cathe_1 select, .cathe_2 select{
+    padding: 8px;
+    border: 1px solid rgb(172, 172, 172);
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+.king_cath .cathe_2{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+}
+.area_way{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+.area_way .first_area{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+}
+.area_way .second_area{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+}
+.area_way label, .second_area label{
+    font-weight: bold;
+    padding-bottom: 5px;
+}
+.area_way select, .second_area select{
+    padding: 8px;
+    border: 1px solid rgb(196, 196, 196);
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+.contenu_publique button{
+    padding: 8px 15px;
+    border: none;
+    background-color: orange;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+.contenu_publique button:hover{
+    background-color: rgb(253, 106, 53);
+    cursor: pointer;
+}

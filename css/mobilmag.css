@@ -1,0 +1,35 @@
+
+@media(max-width: 1368px){
+
+
+  
+    }
+  @media(max-width: 1200px){
+    body .conteneur_magazine{
+        padding: 100px 20px;
+    }
+  
+
+   
+   }
+   @media(max-width: 999px){
+
+    .grandes_cartes{
+        justify-content: center;
+    }
+    body .conteneur_magazine{
+        padding: 100px 50px;
+    }
+  
+
+   }
+  
+   @media(max-width: 600px){
+  
+    body .conteneur_magazine{
+        padding: 100px 20px;
+    }
+  
+  
+   }
+  

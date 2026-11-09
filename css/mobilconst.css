@@ -1,0 +1,900 @@
+
+@media(max-width: 1368px){
+    .navbar{
+        margin-left: 25%;
+        width: auto;
+        /* justify-content:flex-end; */
+     }
+     .menu_left{
+        width: auto;
+     }
+     .navbar .menu_left a, .menu_right a{
+        padding: 21px 10px;
+     }
+
+     .carousel, .carross{
+        display: flex;
+        overflow: hidden;
+     }
+
+     /* promoteur */
+
+     .entre_menus{
+      padding: 40px;
+   }
+   /* fin */
+
+    .ele1{
+        padding: 50px 30px;
+    }
+    .madal_cherchetitre{
+        padding-top: 20px;
+        padding-bottom: 30px;
+     }
+     .modal_cherchecorp{
+        padding: 40px;
+     }
+     .modal_cherchecorp input{
+        width: 100%;
+     }
+     
+     .modal_cherchant{
+        height: 28%;
+     }
+   
+  }
+@media(max-width: 1200px){
+ 
+    .navbar{
+        margin-left: 25%;
+        width: auto;
+        /* justify-content:flex-end; */
+     }
+     .menu_left{
+        width: auto;
+     }
+     .navbar .menu_left a, .menu_right a{
+        padding: 21px 10px;
+     }
+
+     /* promoteur */
+     
+     .all_promo {
+      flex-direction: column;
+      padding-left: 40px;
+   }
+   .promo_ivoire {
+      padding-bottom: 20px;
+   }
+   .entre_menus{
+      padding: 50px 30px;
+   }
+   .md_built{
+      margin-right: 10px;
+   }
+   /* fin */
+
+
+
+   /* PARAMETRE PROJET */
+
+.lot_1{
+   align-items: normal;
+}
+.lot_1, .triplle{
+   height: -webkit-fill-content;
+}
+
+    .ele1{
+        padding: 50px 30px;
+    }
+    .madal_cherchetitre{
+        padding-top: 20px;
+        padding-bottom: 30px;
+     }
+     .modal_cherchecorp{
+        padding: 40px;
+     }
+     .modal_cherchecorp input{
+        width: 100%;
+     }
+     
+     .modal_cherchant{
+        height: 28%;
+     }
+
+     /* FIN */
+
+
+
+ /* RECHERCHER PROJET */
+
+ .lamoitie, .seconde_moitie{
+   display:flex;
+  }
+.lamoitie, .seconde_moitie{
+   width: 100%;
+}
+.contenu_leaster{
+padding: 0 20px;
+}
+#modal_transtips,#modal_delivery, #modal_select_com, #modal_nbrpice, #modal_price_by, #modal_until, #modal_promoteurs,  #modal_advantagers{
+top: 110px;
+}
+.dis_flex{
+display: ruby;
+}
+.dis_flex0{
+justify-content: space-between;
+padding-left: 100px;
+padding-right: 100px;
+}
+.dis_flex0 .cartes_appelez{
+width: 400px;
+margin: 0;
+}
+
+/* fin */
+
+  /* recherche parojet  */
+
+  .lamoitie, .seconde_moitie{
+   display:flex;
+  }
+.navcarre{
+   display: block;
+}
+
+  .contenu_leaster{
+   padding: 0 20px;
+  }
+  .maind_page{
+   margin-top: 100px;
+}
+.copyer img{
+   width: 13px;
+   height: 13px;
+}
+.contenu_karter{
+   padding: 14px;
+   padding-left: 50px;
+}
+.dis_flex{
+  display: inline-flex;
+  flex-direction:column;
+}
+.dis_flex0{
+   display: inline-flex;
+  
+}
+.dis_flex .cartes_appelez{
+   width: 300px;
+}
+.dis_flex0 .cartes_appelez{
+   margin-right: 0;
+   width: auto;
+}
+.dis_flex .cartes_appelez{
+   width: 400px;
+}
+.dis_flex0 .cartes_appelez{
+   width: 400px;
+}
+.dis_flex0{
+   padding: 0 ;
+}
+
+/* Fin */
+
+
+
+
+/* PARAMèTRE DE CONSTRUCITON */
+
+.important_page{
+   margin-top: 5px;
+   padding-left: 10px;
+   padding-bottom: 0;
+}
+.byg_flow{
+   padding: 10px 0;
+}
+.cube_pict{
+   flex-direction: column;
+}
+.lot_1{
+width: auto;
+align-items: normal;
+}
+.lot_spe1 img{
+height: -webkit-fill-available;
+}
+.general_cond{
+width: auto;
+margin-top: 15px;
+}
+.setting_project{
+width: auto;
+}
+.ultra_detail{
+flex-direction: column;
+}
+.about_team, .about_team2, .according_to_project, .location_home, .actuality,.real_abj{
+width: auto;
+}
+.about_team2 .second_wave{
+margin-right: 70px;
+}
+.pancartes{
+
+}
+.first_pancartes{
+margin-right: 20px;
+
+}
+
+
+/* FIN */
+
+
+/* Projet real estate */
+
+.twosparta .cartes_appelez{
+   width: auto;
+}
+
+/* fin */
+
+
+
+ 
+
+     .carousel, .carross{
+        display: flex;
+        overflow: hidden;
+     }
+   
+    .ele1{
+        padding: 50px 30px;
+    }
+    .madal_cherchetitre{
+        padding-top: 20px;
+        padding-bottom: 30px;
+     }
+     .modal_cherchecorp{
+        padding: 40px;
+     }
+     .modal_cherchecorp input{
+        width: 100%;
+     }
+    
+ 
+ }
+ @media(max-width: 999px){
+   
+
+
+   
+    .navbar{
+        margin-left: 20%;
+        width: auto;
+        justify-content:flex-start;
+     }
+     .menu_left{
+        width: auto;
+     }
+     .navbar .menu_left a, .menu_right a{
+        padding: 21px 10px;
+     }
+
+     .carousel, .carross{
+        display: flex;
+        overflow: hidden;
+     }
+     .madal_cherchetitre{
+        padding-top: 20px;
+        padding-bottom: 10px;
+     }
+     .modal_cherchecorp{
+        padding: 30px;
+     }
+     .modal_cherchecorp input{
+        width: 100%;
+     }
+     
+     /* promoteur */
+     .md_built{
+      width: 100%;
+      margin-bottom: 20px;
+      }
+      .entre_menus{
+         flex-direction: column;
+      }
+      /* fin */
+
+
+
+
+ /* recherche construction */
+
+ .navcarre{
+   display: block;
+}
+#universal{
+   padding:50px 40px 0 40px;
+}
+.contenu_leaster{
+   padding: 0;
+}
+.cartes_appelons img{
+   width: 350px;
+}
+.copyer img{
+   width: 13px;
+   height: 13px;
+}
+.contenu_karter{
+   padding: 14px;
+}
+.dis_flex{
+  display: inline-flex;
+  flex-direction:column;
+}
+.dis_flex0{
+   display: inline-flex;
+  
+}
+.dis_flex .cartes_appelez{
+   width: 300px;
+}
+.dis_flex0 .cartes_appelez{
+   margin-right: 0;
+   width: auto;
+}
+.dis_flex0{
+   padding: 0 ;
+}
+.lamoitie, .seconde_moitie{
+   display:flex;
+  }
+
+  #modal_transtips,#modal_delivery, #modal_select_com, #modal_nbrpice, #modal_price_by, #modal_until, #modal_promoteurs{
+   top: 160px;
+ }
+ #modal_advantagers{
+   top: 170px;
+ }
+ .maind_page{
+   margin-top: 100px;
+}
+
+/* Fin */
+
+
+
+/* PARAMèTRE DE CONSTRUCITON */
+
+.important_page{
+   margin-top: 5px;
+   padding-left: 10px;
+   padding-bottom: 0;
+}
+.byg_flow{
+   padding: 10px 0;
+}
+.cube_pict{
+   flex-direction: column;
+}
+.lot_1{
+width: auto;
+align-items: normal;
+}
+.lot_spe1 img{
+height: -webkit-fill-available;
+}
+.general_cond{
+width: auto;
+margin-top: 15px;
+}
+.setting_project{
+width: auto;
+}
+.ultra_detail{
+flex-direction: column;
+}
+.about_team, .about_team2, .according_to_project, .location_home, .actuality,.real_abj{
+width: auto;
+}
+.about_team2 .second_wave{
+margin-right: 70px;
+}
+.pancartes{
+
+}
+.first_pancartes{
+margin-right: 20px;
+
+}
+
+
+/* FIN */
+
+/* Projet real estate */
+
+.twosparta .cartes_appelez{
+   width: auto;
+}
+
+/* fin */
+
+
+
+
+
+    
+    .styl_foot{
+       display: block;
+    }
+
+    .part0 .part1{
+      padding: 0;
+      padding-right: 20px;
+    
+    }
+    .part0{
+     display:flex;
+     justify-content: space-between;
+      padding: 60px 25px;
+    }
+
+
+   .ele1{
+    padding: 70px;
+  display: inline-table;
+
+   }
+
+   .boxe{
+    padding: 2px 0;
+  }
+  .fus{
+    padding-bottom: 5px;
+  }
+  .bttn{
+    margin-bottom: 5px;
+  }
+  .calc2{
+    width: 70%;
+  }
+  .calc{
+    width: 30%;
+  }
+
+
+  
+ }
+
+
+ @media(max-width: 600px){
+
+   /* nouvelle construction côte d'ivoire */
+
+ .menu_left #tool_searcher{
+    display: none;
+ }
+ .navbar{
+    margin-left: 20%;
+    width: auto;
+    justify-content:flex-start;
+ }
+
+ .madal_cherchetitre{
+    padding-top: 0;
+    padding-bottom: 10px;
+ }
+ .modal_cherchecorp{
+    padding: 20px;
+ }
+ .modal_cherchecorp input{
+    width: 100%;
+ }
+ .menu_left{
+    justify-content:flex-start;
+    width: auto;
+ }
+.menu_left a{
+    font-size: 13px;
+}
+.menu_right select{
+    font-size: 13px;
+}
+.menu_right img{
+    width: 15px;
+}
+
+.chantier{
+    padding: 100px 50px 50px 50px;
+ }
+.chantier .textout{
+    margin-top:0 ;
+}
+.trifolder{
+    padding: 10px;
+}
+.fond_trans{
+    width: auto;
+    flex-direction: row;
+    justify-content: center;
+
+}
+.fond_trans01{
+    padding: 0;
+    justify-content: start;
+    width: auto;
+    flex-direction: column;
+}
+.champ_pred{
+    width: auto;
+    margin-right: 0;
+    margin-bottom: 5px;
+}
+.champ_pred input, .champ_pred select{
+    width: auto;
+}
+.searched{
+    display: block;
+    width: auto;
+}
+.cartes_appelez{
+    width: auto;
+}
+.carousel{
+   display: flex;
+   overflow: hidden;
+}
+ .tellephoner{
+ flex-direction: column;
+} 
+.carross{
+    display: flex;
+    overflow: hidden;
+}
+.betwin,.twintez{
+    display: none;
+}
+.flexion{
+    flex-direction: column;
+    padding-left: 0;
+  
+}
+.text_ag00{
+    width: auto;
+}
+.real_ag{
+    width: auto;
+    padding: 20px;
+}
+.logo{
+    margin-left: 10px;
+}
+
+/* promoteur */
+
+.main_page p{
+   width: auto;
+   font-size: 10px;
+}
+.main_page .punt{
+   padding: 10px;
+}
+.main_page{
+   padding-left: 20px;
+   padding-bottom: 10px;
+}
+.all_promo {
+   flex-direction: column;
+   padding-left: 10px;
+}
+.promo_ivoire{
+   text-align:start;
+   padding-bottom: 10px;
+}
+.promo_ivoire p{
+   width: auto;
+}
+.text_sel{
+   width: auto;
+}
+.entre_menus{
+   flex-direction: column;
+   padding: 0;
+   padding-top: 50px;
+}
+
+.md_built{
+   margin-right: 0;
+   margin-bottom: 20px;
+   width: 90%;
+}
+.promo_name input, .country_name select{
+   width: auto;
+}
+
+/* fin */
+
+
+
+
+  /* tout les projets recherche*/
+   
+  #universal{
+   padding: 40px 10px 0 10px;
+ }
+ .menu_left #tool_searcher{
+    display: none;
+ }
+ .navebarre{
+    margin-left: 30%;
+    width: auto;
+    justify-content:flex-start;
+ }
+.navcarre{
+   
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   border-top: 1px solid black;
+   margin-top: 0;
+   /* position: relative; */
+}
+.allcocody .postprojet h2{
+   font-size: 15px;
+}
+.contenu_leaster{
+   padding: 0px 10px;
+}
+.cartes_appelons .appel001{
+   display: block;
+}
+   .appel001 img{
+      width: 100%;
+      border-top-left-radius:10px;
+      border-top-right-radius: 10px;
+      border-bottom-left-radius: 0;
+   }
+   .copyer img{
+      width: 10px;
+      height: 10px;
+   }
+   .appel001 .appelleurs{
+      margin: 0 auto;
+      margin-top: 15px;
+   }
+ .appel001 .paddeur{
+   padding: 10px;
+ }
+ #modal_transtips,#modal_delivery, #modal_select_com, #modal_nbrpice, #modal_price_by, #modal_until, #modal_promoteurs{
+   top: 260px;
+ }
+ #modal_advantagers{
+   top: 170px;
+ }
+ .corps_trans{
+   margin: 0 auto;
+   margin-top: 50px;
+ }
+ #modal_delivery .modal_year, #modal_nbrpice .modal_pice{
+   margin: 0 auto;
+   margin-top: 10px;
+   position:static ;
+}
+#modal_select_com .different_com{
+   display: inline-flex;
+}
+.commune_sel{
+   width: auto;
+}
+.different_com .ligner_01{
+   margin-right: 10px;
+}
+.corp_promo{
+   padding-right: 0;
+}
+.modal_seacher_corps{
+   width: auto;
+   overflow: auto;
+}
+.advantages_corp{
+   width: auto;
+}
+.big_counter{
+   flex-direction: column;
+}
+.contenu_karter{
+   padding: 14px;
+}
+.dis_flex, .dis_flex0{
+   flex-direction: column;
+}
+.dis_flex .cartes_appelez{
+   width: 300px;
+}
+.dis_flex0 .cartes_appelez{
+   margin-right: 0;
+   margin-bottom: 20px;
+   width: auto;
+}
+.dis_flex0{
+   padding: 10px;
+}
+.maind_page{
+   margin-top: 180px;
+}
+.lamoitie, .seconde_moitie{
+   display:block;
+  }
+
+
+/* fin */
+
+
+
+/* Paramètre de construction */
+
+.menu_left #tool_searcher{
+   display: none;
+}
+.important_page{
+   margin-top: 5px;
+   padding-left: 10px;
+   padding-bottom: 0;
+}
+.byg_flow{
+   padding: 10px 0;
+}
+.camback{
+   padding-right: 5px;
+   margin-right: 5px;
+}
+.next_suivant p{
+   font-size: 12px;
+   margin-left: 5px;
+}
+.versoix_heart h2{
+   font-size: 15px;
+   word-spacing:0;
+   line-height: normal;
+}
+.pretty_house .custom_btn{
+   padding: 5px 10px;
+}
+.corp_code{
+   padding: 50px 10px 0 10px;
+}
+.cube_pict{
+   flex-direction: column;
+}
+.lot_1{
+   width: auto;
+   align-items: normal;
+}
+.lot_spe1 img{
+   height: -webkit-fill-available;
+}
+.general_cond{
+   width: auto;
+   margin-top: 15px;
+}
+.setting_project{
+   width: auto;
+}
+.ultra_detail{
+   flex-direction: column;
+}
+.about_team, .about_team2, .according_to_project, .location_home, .actuality,.real_abj{
+   width: auto;
+}
+.about_team2 .second_wave{
+   margin-right: 70px;
+}
+.pancartes{
+   flex-direction: column;
+}
+.first_pancartes{
+   margin-right: 0;
+   margin-top: 10px;
+}
+.abonne_corp{
+   width: auto;
+   margin: 50% auto;
+}
+
+
+
+/* FIN */
+
+/* PROJET REAL ESTATE */
+
+.twosparta{
+   flex-direction: column;
+}
+
+
+
+
+
+
+
+
+
+
+
+   .styl_foot{
+    display: block;
+   }
+   .first_img img {
+    height:auto;
+   }
+   #droit{
+    font-size: 10px;
+   }
+   
+   
+
+   .ele1{
+      padding: 20px;
+   }
+ 
+   .part0 .part1{
+     padding: 0;
+     padding-right: 20px;
+   
+   }
+   .part0{
+    display:flex;
+    flex-direction: column;
+     padding: 60px 25px;
+     
+
+   } 
+   .ele1{
+    display: block;
+   }
+
+
+  .trap h4{
+     font-size: 16px;
+  }
+  .trap{
+     height: auto;
+  }
+  .part0 .part1 h3{
+     font-size: 20px;
+     text-decoration: underline;
+  } 
+  .image img{
+    height:60vh;
+  }
+  .trap h4{
+    font-size: 15px;
+  }
+  .trap{
+    padding: 10px;
+  }
+  .boxe{
+    padding: 2px 0;
+  }
+  .fus{
+    padding-bottom: 5px;
+  }
+  .bttn{
+    margin-bottom: 5px;
+  }
+  .calc2{
+    width: 70%;
+  }
+  .calc{
+    width: 30%;
+  }
+
+ }

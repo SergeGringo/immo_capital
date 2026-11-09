@@ -1,0 +1,280 @@
+@media(max-width : 1670px) {
+    .image_favoris_2{
+        display: block;
+       }
+       .principal_02, .principal_01{
+        width: 100%;
+        padding-bottom: 10px;
+       }
+       .first_img img{
+        height: 500px;
+        border-top-right-radius: 15px;
+        border-bottom-left-radius:none;
+       }
+       .multiple_img .images_01 img{
+          border-bottom-left-radius: 0;
+       }  
+       .ou_cocody, .prix_minime, .nombre_chambres{
+        width: auto;
+        padding-right:30px;
+        
+     }
+     .buton_filtrer{
+        padding-right: 30px;
+     }
+     .bien_vendre label{
+        font-size: 20px;
+     }
+
+     .modal_subjet{
+      width: 60%;
+      height: auto;
+      padding-bottom: 20px;
+      margin-top: 200px;
+     }
+
+
+  
+}
+@media(max-width: 1200px){
+    .stockeur_element{
+        padding: 100px 50px 50px 50px;
+     }
+    
+     .ou_cocody, .prix_minime, .nombre_chambres{
+        width: auto;
+        padding-right:20px;
+        
+     }
+     .buton_filtrer{
+        padding-right: 20px;
+     }
+     .bien_vendre label{
+        font-size: 20px;
+     }
+
+     .modal_subjet{
+      width: 55%;
+      height: auto;
+      padding-bottom: 20px;
+      margin-top: 200px;
+     }
+     .free_alerte{
+      line-height: 25px;
+      padding-bottom: 5px;
+     }
+     .modal_superieur{
+      margin-bottom: 0;
+     }
+     .alerte_name label, .alerte_mail label{
+      padding-bottom: 5px;
+      font-weight: 800;
+      font-size: 16px;
+     }
+     .alerte_name input{
+      margin-bottom: 5px;
+     }
+     .alerte_name p{
+      font-size: 12px;
+     }
+     .modal_organes{
+      padding: 0 10px;
+     }
+     .alerte_mail{
+      margin-top: 10px;
+      margin-bottom: 0;
+     }
+     .modal_ender{
+      padding: 0 10px;
+     }
+     .modal_ender button{
+      margin-bottom: 5px;
+     }
+     .modal_ender p{
+      line-height: 18px;
+      font-size: 13px;
+     }
+     .modal_disc{
+      left: 28%;
+      top: 80%;
+     }
+     .modal_disc p{
+      /* font-size: 14px; */
+     }
+     .sauvegardeur{
+      padding: 10px 10px;
+     }
+     .voir_map{
+      padding:10px 50px;
+     }
+
+ }
+ @media(max-width: 999px){
+    .stockeur_element{
+        padding: 100px 30px 50px 30px;
+     }
+     .ou_cocody, .prix_minime, .nombre_chambres{
+        width: auto;
+        padding-right:0;
+        margin-bottom: 10px; 
+     }
+     .buton_filtrer{
+        padding-right: 0;
+     }
+     .objet_rechercher{
+        display: block;
+        flex-direction: column;
+     }
+     .buton_filtrer{
+        padding-right: 0;
+       margin-bottom: 10px;
+     }
+
+     .modal_subjet{
+      width: 70%;
+      height: auto;
+      margin-top: 200px;
+     }
+     .free_alerte{
+      /* line-height: 25px;
+      padding-bottom: 5px; */
+     }
+     .modal_superieur{
+      /* margin-bottom: 0; */
+     }
+     .alerte_name label, .alerte_mail label{
+      /* padding-bottom: 5px;
+      font-weight: 800;
+      font-size: 16px; */
+     }
+     .alerte_name input{
+      /* margin-bottom: 5px; */
+     }
+     .alerte_name p{
+      /* font-size: 12px; */
+     }
+     .modal_organes{
+      /* padding: 0 10px; */
+     }
+     .alerte_mail{
+      /* margin-top: 10px;
+      margin-bottom: 0; */
+     }
+     .modal_ender{
+      /* padding: 0 10px; */
+     }
+     .modal_ender button{
+      /* margin-bottom: 5px; */
+     }
+     .modal_ender p{
+      /* line-height: 18px;
+      font-size: 13px; */
+     }
+     .modal_disc{
+       left: 20%;
+      /* top: 80%;  */
+     }
+     .modal_disc p{
+      /* font-size: 14px; */
+     }
+     .sauvegardeur{
+      /* padding: 10px 10px; */
+     }
+     .voir_map{
+      /* padding:10px 50px; */
+     }
+    
+  
+ }
+ @media(max-width: 600px){
+ .stockeur_element{
+    padding: 100px 30px 50px 30px;
+ }
+ .boutton_home img{
+    width: 15px;
+ }
+ .boutton_home p{
+    font-size: 14px;
+ }
+ .objet_rechercher{
+    display: block;
+    flex-direction: column;
+ }
+ .ou_cocody, .prix_minime, .nombre_chambres{
+    width: auto;
+    padding-right:0;
+    margin-bottom: 10px;
+ }
+ .buton_filtrer{
+    padding-right: 0;
+   margin-bottom: 10px;
+ }
+ .bien_vendre select{
+    padding: 5px;
+ }
+ .image_favoris_2 .table_01{
+    padding-right: 0;
+ }
+ .proximite01{
+    height: 400px;
+ }
+ .first_img img{
+    height: auto;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius:none;
+   }
+  .modal_subjet{
+   width: 95%;
+   height: auto;
+   padding-bottom: 20px;
+   margin-top: 200px;
+  }
+  .free_alerte{
+   line-height: 25px;
+   padding-bottom: 5px;
+  }
+  .modal_superieur{
+   margin-bottom: 0;
+  }
+  .alerte_name label, .alerte_mail label{
+   padding-bottom: 5px;
+   font-weight: 800;
+   font-size: 16px;
+  }
+  .alerte_name input{
+   margin-bottom: 5px;
+  }
+  .alerte_name p{
+   font-size: 12px;
+  }
+  .modal_organes{
+   padding: 0 10px;
+  }
+  .alerte_mail{
+   margin-top: 10px;
+   margin-bottom: 0;
+  }
+  .modal_ender{
+   padding: 0 10px;
+  }
+  .modal_ender button{
+   margin-bottom: 5px;
+  }
+  .modal_ender p{
+   line-height: 18px;
+   font-size: 13px;
+  }
+  .modal_disc{
+   left: 0;
+   top: 80%;
+  }
+  .modal_disc p{
+   font-size: 14px;
+  }
+  .sauvegardeur{
+   padding: 10px 10px;
+  }
+  .voir_map{
+   padding:10px 50px;
+  }
+ }

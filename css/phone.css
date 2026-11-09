@@ -1,0 +1,156 @@
+@media(max-width: 1600px){
+ 
+   .mootive{
+      width:80%;
+   }
+   .opac input[type="radio"]:checked + label::after{
+      left: 4px;
+      top: 4px;
+     
+   }
+   .stitre{
+      width: 80%;
+     }
+     .area_titre{
+      width: 80%;
+   }
+   #info{
+      margin-bottom: 20px;
+   }
+   .bt_env{
+      width: auto;
+      justify-content: start;
+   }
+   .carré_vert{
+      margin-right: 0;
+    }
+}
+
+
+@media(max-width: 1200px){
+   #dop2{
+      margin-right: 100px;
+   }
+   .mootive{
+      width:80%;
+   }
+   .opac input[type="radio"]:checked + label::after{
+      left: 4px;
+      top: 4px;
+     
+   }
+   .stitre{
+      width: 80%;
+     }
+     .area_titre{
+      width: 80%;
+   }
+   #info{
+      margin-bottom: 20px;
+   }
+   .bt_env{
+      width: auto;
+      justify-content: start;
+   }
+   .carré_vert{
+      margin-right: 0;
+    }
+}
+
+
+@media(max-width: 999px){
+   
+   header{
+    padding: 0;
+   
+   }
+   .navbar{
+    height: 60px;
+    display: flex;
+   }
+   .favoris_profil{
+    position: absolute;
+    right: 0;
+   }
+   .favoris_profil p{
+    display: none;
+   }
+   .favoris_profil .fleur{
+    display: flex;
+   }
+   .lop, #dop2{
+    display: none;
+   }
+   .logo{
+    padding-left: 50px;
+   }
+   .styl_foot{
+      display: inline-flex;
+   }
+   .ele1{
+      padding: 20px;
+   }
+   .inform{
+     margin-right: 0;
+   }
+   .parag p{
+     font-size: 20px;
+   }
+   .mootive{
+      width: 80%;
+   }
+   .opac{
+      display: grid;
+   }
+   .stitre{
+      width: 80%;
+     }
+     .area_titre{
+      width: 80%;
+   }
+   .bt_env{
+      width: auto;
+      justify-content: start;
+   }
+   #info{
+      margin-bottom: 15px;
+   }
+   .carré_vert{
+      margin-right: 0;
+    }
+ 
+}
+@media(max-width: 600px){
+  .styl_foot{
+   display: block;
+  }
+
+  .inform{
+     margin-right: 0;
+  }
+  .parag p{
+     font-size: 11px;
+  }
+  .stitre{
+   width: 100%;
+  }
+  .mootive{
+   width: 100%;
+}
+.opac{
+   display: block;
+}
+.opac input[type="radio"]:checked + label::after {
+ left: 4px;
+
+}
+.area_titre{
+   width: 100%;
+}
+#info{
+   margin-bottom: 10px;
+}
+ .carré_vert{
+   margin-right: 0;
+ }
+}

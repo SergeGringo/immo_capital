@@ -1,0 +1,624 @@
+
+@media(max-width: 1368px){
+
+  .contenu_document{
+    padding: 50px 30px;
+  }
+  .whent .reseach{
+    width: 100%;
+  }
+   .styl_foot .ele1{
+    padding: 70px 30px;
+   }
+    
+   /* RESPONSIVE DE LA PAGE ESTIMATION IMMO */
+
+   body .progresseur_class{
+    width: 70%;
+    padding: 50px 10px;
+
+ }
+ .modal_constently .corp_constent{
+    top: 100px;
+    left: 280px;
+}
+
+
+  }
+@media(max-width: 1200px){
+ 
+    .image_favoris_2{
+        display: block;
+       }
+       .principal_02, .principal_01{
+        width: 100%;
+        padding-bottom: 10px;
+       }
+       .first_img img{
+        height: 500px;
+        border-top-right-radius: 15px;
+        border-bottom-left-radius:none;
+       }
+       .multiple_img .images_01 img{
+          border-bottom-left-radius: 0;
+       }   
+       .luminosity{
+           margin-bottom: 30px;
+       }
+       .whent .reseach{
+           width: 100%;
+       }
+       
+       
+       #listor{
+           top: auto;
+       }
+   
+       .navbar{
+           height: 60px;
+           display: flex;
+          }
+          .favoris_profil{
+           position: absolute;
+           right: 50px;
+          }
+          .contenu_document{
+           padding: 50px 20px;
+          }
+          .all_transport{
+           display: block;
+          }
+         .styl_foot .ele1{
+            padding: 70px 30px;
+         }
+   
+   
+   
+   
+   
+   
+          /* .favoris_profil p{
+           display: flex;
+          } */
+          .favoris_profil .fleur{
+           display: flex;
+          }
+   
+       /* .lop, #dop2{
+        display: flex;
+       } */
+       .logo{
+        padding-left: 0;
+       }
+   
+
+       /* RESPONSIVE DE LA PAGE ESTIMATION IMMO */
+
+       body .progresseur_class{
+        width: 70%;
+        padding: 50px 10px;
+    
+     }
+     .modal_constently .corp_constent{
+        top: 100px;
+        left: 180px;
+    }
+
+    /* RESPONSIVE DE LA PAGE APPERCU */
+
+    .my_annonces{
+      display: flex;
+      flex-direction: column;
+     }
+     .my_favorism{
+      flex-direction: column;
+     }
+
+     .all_annonces{
+      width: auto;
+      margin-bottom: 15px;
+    }
+    .news_announcers{
+      width: auto;
+    }
+     
+    .my_favorism .all_favorites{
+      width: auto;
+      margin-bottom: 15px;
+    }
+    .my_alertes{
+      width: auto;
+    }
+
+    /* FIN */
+
+    /* RESPONSIVE DE LA PAGE CHANGER MOT DE PASSE */
+
+    .observateur_suivi{
+      padding-left: 0;
+      margin-bottom: 100px;
+  }
+
+    /* FIN */
+
+
+    /* RESPONSIVE DE LA PAGE CHANGER LE NOM D'UTILISATEUR */
+
+    body .other_name{
+      padding: 50px 50px 350px 50px;
+   }
+
+    /* FIN */
+
+    /* RESPONSIVE DE LA PAGE PARAMETRE */
+    body .para_contenu{
+      padding: 90px 50px 300px 50px;
+  }
+    /* FIN */
+ 
+ }
+ @media(max-width: 999px){
+   
+    .image_favoris_2{
+     display: block;
+    }
+    .principal_02, .principal_01{
+     width: 100%;
+     padding-bottom: 10px;
+    }
+    .first_img img{
+     height: 500px;
+     border-top-right-radius: 15px;
+     border-bottom-left-radius:none;
+    }
+    .multiple_img .images_01 img{
+       border-bottom-left-radius: 0;
+    }   
+    .luminosity{
+        margin-bottom: 30px;
+    }
+    .whent .reseach{
+        width: 100%;
+    }
+
+    
+    
+ 
+    #dop2{
+        display: none;
+    }
+    #listor{
+        top: auto;
+    }
+
+    .navbar{
+        height: 60px;
+        display: flex;
+       }
+       .favoris_profil{
+        position: absolute;
+        right: 50px;
+       }
+       .contenu_document{
+        padding: 50px 20px;
+       }
+       .all_transport{
+        display: block;
+       }
+
+
+
+
+
+
+
+       /* .favoris_profil p{
+        display: flex;
+       } */
+       .favoris_profil .fleur{
+        display: flex;
+       }
+
+    /* .lop, #dop2{
+     display: flex;
+    } */
+    .logo{
+     padding-left: 0;
+    }
+    
+    .styl_foot{
+       display: block;
+    }
+    .styl_foot .ele1{
+        padding: 70px;
+    }
+
+    .part0 .part1{
+      padding: 0;
+      padding-right: 20px;
+    
+    }
+    .part0{
+     display:flex;
+     justify-content: space-between;
+      padding: 60px 25px;
+      
+
+    }
+
+
+     .form{
+      left: 3;
+    }
+    .modal-footer, .modal-header{
+     width: 88%;
+    }
+    .modal-footer{
+      bottom:30px;
+    }
+    .modal-form{
+      width: 90%;
+    } 
+
+    .modal-form .modal-footer{
+     
+      width: 88%;
+    }
+
+
+
+   .ele1{
+    padding: 70px;
+  display: inline-table;
+
+   }
+
+   .boxe{
+    padding: 2px 0;
+  }
+  .fus{
+    padding-bottom: 5px;
+  }
+  .bttn{
+    margin-bottom: 5px;
+  }
+  .calc2{
+    width: 70%;
+  }
+  .calc{
+    width: 30%;
+  }
+
+
+
+
+
+
+  /* responsive de la page estimation immo */
+
+  body .progresseur_class{
+    width: 70%;
+    padding: 50px 10px;
+
+ }
+ .modal_constently .corp_constent{
+    top: 100px;
+    left: 80px;
+}
+
+
+/* RESPONSIVE DE LA PAGE APPERCU */
+
+.my_annonces{
+  display: flex;
+  flex-direction: column;
+ }
+ .my_favorism{
+  flex-direction: column;
+ }
+
+ .all_annonces{
+  width: auto;
+  margin-bottom: 15px;
+}
+.news_announcers{
+  width: auto;
+}
+ 
+.my_favorism .all_favorites{
+  width: auto;
+  margin-bottom: 15px;
+}
+.my_alertes{
+  width: auto;
+}
+
+
+/* FIN */
+
+
+/* RESPONSIVE DE LA PAGE CHANGER MOT DE PASSE */
+
+body .your_count{
+  padding: 10px;
+}
+.register_ann{
+  width: auto;
+}
+.last_pass, .new_pass{
+  flex-direction: column; 
+    align-items: flex-start;
+}
+.last_pass input, .new_pass input{
+  width: 100%;
+}
+.observateur_suivi{
+  padding-left: 0;
+  margin-bottom: 100px;
+}
+
+
+/* FIN */
+
+
+/* RESPONSIVE DE LA PAGE CHANGER LE NOM D'UTILISATEUR */
+
+body .other_name{
+  padding: 50px 50px 100px 50px;
+}
+
+/* FIN */
+
+
+/* RESPONSIVE DE LA PAGE PARAMETRE */
+
+body .para_contenu{
+  padding: 50px;
+}
+
+
+/* FIN */
+  
+ }
+
+
+ @media(max-width: 600px){
+
+
+.favoris_profil .coeurmiss{
+    display: none;
+}
+#dop2{
+    display: none;
+}
+.lop{
+    display: none;
+}
+#listor{
+    top: auto;
+}
+.quelle_valeur{
+    top: 50px;
+    left: 5px;
+    width: 360px;
+}
+.mais_appart{
+   padding: 0;
+}
+.listeur_check{
+    display: block;
+}
+.contenu_document{
+    padding: 50px 10px;
+}
+.saized_inf{
+    display: block;
+}
+.all_transport{
+    display: block;
+}
+.luminosity{
+    margin-bottom: 30px;
+}
+.luminosity img{
+    width: 350px;
+}
+.numeroteur_inf{
+    margin-top: 30px;
+}
+.whent .reseach{
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+   .styl_foot{
+    display: block;
+   }
+   .styl_foot .ele1{
+    padding: 50px 30px;
+}
+   .first_img img {
+    height:auto;
+   }
+   #droit{
+    font-size: 10px;
+   }
+   
+   
+
+   .ele1{
+      padding: 20px;
+   }
+
+   .part0 .part1{
+     padding: 0;
+     padding-right: 20px;
+   
+   }
+   .part0{
+    display:flex;
+    flex-direction: column;
+     padding: 60px 25px;
+     
+
+   } 
+   .ele1{
+    display: block;
+   }
+
+
+  
+  .trap h4{
+     font-size: 16px;
+  }
+  .trap{
+     height: auto;
+  }
+  .part0 .part1 h3{
+     font-size: 20px;
+     text-decoration: underline;
+  } 
+  .image img{
+    height:60vh;
+  }
+  .trap h4{
+    font-size: 15px;
+  }
+  .trap{
+    padding: 10px;
+  }
+  .boxe{
+    padding: 2px 0;
+  }
+  .fus{
+    padding-bottom: 5px;
+  }
+  .bttn{
+    margin-bottom: 5px;
+  }
+  .calc2{
+    width: 70%;
+  }
+  .calc{
+    width: 30%;
+  }
+
+ /* RESPONSIVE DE LA PAGE ESTIMATION IMMO */
+
+ body .progresseur_class{
+    width: auto;
+    padding: 50px 10px;
+ }
+
+.favoris_profil .magix{
+    display: none;
+}
+.progresseur_class .containeir{
+    padding: 20px 25px;
+}
+.modal_constently .corp_constent{
+    top: 20px;
+    left: auto;
+}
+
+
+
+
+/* RESPONSIVE DE LA PAGE APPERCU */
+
+#assemblator .assembleur{
+  padding: 10px;
+}
+.user_name{
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+ #that_coms{
+  padding-left: 45px;
+ }
+ .para_dec{
+  margin-top: 40px;
+ }
+ .my_annonces{
+  display: flex;
+  flex-direction: column;
+ }
+ .my_favorism{
+  flex-direction: column;
+ }
+.all_annonces{
+  width: auto;
+  margin-bottom: 15px;
+}
+.news_announcers{
+  width: auto;
+}
+.my_favorism .all_favorites{
+  width: auto;
+  margin-bottom: 15px;
+}
+.my_alertes{
+  width: auto;
+}
+
+
+/* FIN */
+
+/* RESPONSIVE DE LA PAGE CHANGER MOT DE PASSE */
+
+
+body .your_count{
+  padding: 10px;
+}
+.register_ann{
+  width: auto;
+}
+.last_pass, .new_pass{
+  flex-direction: column; 
+    align-items: flex-start;
+}
+.last_pass input, .new_pass input{
+  width: 100%;
+}
+.observateur_suivi{
+  padding-left: 0;
+}
+
+
+/* FIN */
+
+/* RESPONSIVE DE LA PAGE CHANGER LE NOM D'UTILISATEUR */
+
+body .other_name{
+  padding: 50px 10px;
+}
+.name_util{
+ width: auto;
+}
+.cancel_reg{
+ width: auto;
+}
+
+/* FIN */
+
+
+
+/* RESPONSIVE DE LA PAGE PARAMETRE  */
+
+body .para_contenu{
+  padding: 50px;
+}
+
+
+/* FIN */
+
+
+ }

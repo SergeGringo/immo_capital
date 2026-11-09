@@ -1,0 +1,87 @@
+@media(max-width: 1200px){
+ .first_img img{
+   height: auto;
+ }
+   .beau{
+      line-height: 18px;
+   }
+ .contenu_site{
+   padding: 90px 50px 50px 50px;
+ }
+ .principal_01, .multiple_img{
+   width: 100%;
+ }
+
+}
+@media(max-width: 999px){
+  
+   .image_favoris_2{
+    display: block;
+   }
+   .principal_02, .principal_01{
+    width: 100%;
+    padding-bottom: 10px;
+   }
+   .first_img img{
+    height: 500px;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius:none;
+   }
+   .multiple_img .images_01 img{
+      border-bottom-left-radius: 0;
+   }   
+   
+   
+   header{
+    padding: 0;
+    z-index: 9;
+   }
+   .navbar{
+    height: 60px;
+    display: flex;
+   }
+   .favoris_profil{
+    position: absolute;
+    right: 0;
+   }
+   .favoris_profil p{
+    display: none;
+   }
+   .favoris_profil .fleur{
+    display: flex;
+   }
+   .lop, #dop2{
+    display: none;
+   }
+   .logo{
+    padding-left: 50px;
+   }
+   
+   .contenu_site{
+    padding: 10px;
+    margin: 0;
+    width: 100%;
+    
+   }
+   .contenu_site h1{
+    padding-top: 70px;
+   }
+   .styl_foot{
+      display: inline-flex;
+   }
+   .ele1{
+      padding: 20px;
+   }
+}
+@media(max-width: 600px){
+  .styl_foot{
+   display: block;
+  }
+  .first_img img {
+   height:auto;
+  }
+  #droit{
+   font-size: 10px;
+  }
+  
+}

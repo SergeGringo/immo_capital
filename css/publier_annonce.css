@@ -1,0 +1,260 @@
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+#bande_tet #listes{
+    top: 100%;
+}
+.puissance_immo{
+
+    margin-top: 50px;
+    background-image: url(../images/picture/analog-landscape-city-with-buildings.jpg);
+    background-color:  rgba(0, 0, 0, 0.5);
+    background-blend-mode: multiply;
+    background-size: cover;
+    height:60vh;
+    padding: 200px;
+ 
+}
+ .take_profit{
+    /* background-color: #e7b6b6; */
+    
+}
+.take_profit h1{
+    font-size: 40px;
+    color: white;
+    padding-bottom: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.take_profit p{
+    word-spacing: 3px;
+    color: white;
+    font-size: 17px;
+    padding-bottom: 20px;
+    font-weight: lighter;
+    font-family:'Arial', Times, serif;
+}
+.take_profit button{
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    background-color: orange;
+}
+
+.take_profit button a{
+    color: white;
+    font-weight: 600;
+}
+.take_profit button:hover{
+    background-color: rgb(255, 136, 0);
+}
+.very_simple{
+   padding: 25px 600px 50px 200px;
+    /* background-color: #ffa2a2; */
+}
+.very_simple h3{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+}
+.step_by{
+    display: flex;
+ 
+    justify-content: space-between;
+    padding-top: 20px;
+}
+.step_one{
+    display: block;
+}
+.step_one img{
+    width: 50px;
+}
+.step_one P{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    line-height: 25px;
+}
+.step_one button{
+    margin-top: 30px;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: orange;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+.step_one button a{
+    color: white;
+    font-weight:500;
+}
+.step_one button:hover{
+    background-color: rgb(255, 136, 0);
+}
+#vapor{
+    display: none;
+}
+.amazed{
+    /* background-color: #ffacac; */
+    padding: 0 600px 50px 200px;
+}
+.amazed h3{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+    padding-bottom: 20px;
+
+}
+.retard_disco{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.disco_project p{
+    line-height: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.disco_project button{
+    margin-top: 15px;
+    padding: 10px 15px;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color:white;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+.disco_project button a{
+    font-weight: bold;
+}
+.disco_project button:hover{
+    background-color: #f0f0f0;
+}
+.circle_pict img{
+    width: 300px;
+    height: 300px;
+    border-radius:50%;
+    -webkit-border-radius:50%;
+    -moz-border-radius:50%;
+    -ms-border-radius:50%;
+    -o-border-radius:50%;
+}
+.large_part{
+    padding: 30px 500px 50px 200px;
+    /* background-color: #f5b8b8; */
+}
+.large_part h3{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+    padding-bottom: 20px;
+}
+.flexiblity{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top:60px;
+}
+.flexiblity img{
+    width: 100px;
+    margin-bottom: 10px;
+}
+.troup_target h4{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+.troup_target p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    line-height: 25px;
+}
+.call_adviser{
+    /* background-color: #f3bdbd; */
+    padding: 30px 500px 50px 200px;
+}
+.call_adviser h3{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+    padding-bottom: 30px;
+}
+.blockeuse{
+    display: flex;
+    flex-direction: column;
+    width:45%;
+}
+.blockeuse label{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   padding-bottom: 5px;
+}
+.blockeuse input{
+    padding: 10px;
+    border: 1px solid rgb(170, 166, 166);
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    margin-bottom: 20px;
+}
+.blockeuse textarea{
+    height: 150px;
+    border: 1px solid rgb(170, 166, 166);
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+.licence_contract{
+    /* background-color: #f0aeae; */
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 0 0 50px 200px;
+}
+.cool{
+    line-height: 25px;
+}
+.licence_contract button{
+    margin-top: 20px;
+    padding: 10px 15px;
+    background-color: orange;
+    border: none;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+.licence_contract button a{
+    color: white;
+    font-weight: 600;
+}
+.licence_contract button:hover{
+    background-color: rgb(255, 136, 0);
+}
+.pleasure_ans{
+    /* background-color: #eebaba; */
+    padding: 0 0 30px 200px;
+}
+.pleasure_ans h3{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+    padding-bottom: 20px;
+}
+.pleasure_ans p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    line-height: 30px;
+
+}
+
+
+
+
+
+/* FOOTER */
+footer{
+    margin-top: 50px;
+}

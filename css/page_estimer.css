@@ -1,0 +1,451 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.containeir {
+    position: relative;
+    display: inline-block;
+    border: 3px solid transparent; /*Bordurepardéfaut*/
+    cursor: pointer;
+    padding: 20px 40px;
+    margin: 10px;  /*Ajouteunespaceentrelesdivs*/
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5); /* Ombre sur les 4 côtés */
+   
+}
+
+.containeir.selected {
+  border-color: rgb(255, 145, 0); /*Couleurdebordlorsquesélectionné*/
+
+}
+
+.image {
+    width: 90px; /* Ajustez la taille selon vos besoins */
+    height: auto;
+}
+.image-1{
+    width: 100px;
+
+}
+
+.radio-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+.progresseur_class{
+   /* background-color: #f1cdcd; */
+  width: 30%;
+  margin: 0 auto;
+  padding: 50px 0;
+  /* text-align: center; */
+}
+#modal01{
+    /* background-color: #e0c7a5; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 30px;
+}
+.emplacement_mais_appart{
+    /* background-color: #e3e7a4; */
+    display: none;
+}
+.emplacement_mais_appart.activated{
+    display: block;
+}
+.change_cool,.change_cool1{
+    text-align: center;
+    font-weight: bold;
+}
+.deuxbtn{
+    display: flex; 
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 0;
+    border-top: 1px solid rgb(189, 184, 184);
+
+}
+.deuxbtn .annuller{
+    padding: 8px 20px;
+    border: 1px solid black;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    color: black;
+    font-weight: bold;
+    background-color: #fff;
+    cursor: pointer;
+}
+.deuxbtn .annuller:hover{
+    background-color: #f0f0f0;
+}
+.deuxbtn .nextt{
+    padding: 8px 20px;
+    border: none;
+    background-color: orange;
+    color: white;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+}
+.deuxbtn .nextt:hover{
+    background-color: rgb(255, 115, 0);
+}
+.progress-bar{
+    width: 100%;
+    background-color: #f3f3f3;
+    margin: 5px 0 40px 0;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+}
+.progress{
+    height: 10px;
+    width:0;
+    background-color: #170958;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+}
+.surestime p{
+    font-weight: bold;
+}
+
+.div-lab1 {
+     width: 100%;
+     height:40px;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     border: 2px solid rgb(161, 161, 161); /*Bordurepardéfaut*/
+     padding: 10px;
+     cursor: pointer;
+     margin-bottom: 20px;
+     transition: border-color 0.3s, background-color 0.3s; /*Transitionpourl'animation*/
+     border-radius:5px;
+}
+.div-lab1.active {
+    border-color: #007BFF; /* Couleur de la bordure lorsqu'activée */
+    background-color: rgba(0, 123, 255, 0.1); /* Couleur de fond lorsqu'activée */
+}
+.div-lab1 label.active {
+    color: #007BFF; /* Couleur du label lorsqu'activé */
+}
+input[type="radio"] {
+    display: block; /* Masquer le bouton radio par défaut */
+}
+.m_botom{
+    padding-bottom: 40px;
+}
+.ma_botom{
+    padding: 30px 0;
+}
+.labo{
+    font-weight: bold;
+}
+.pos_col{
+    display: flex;
+    flex-direction: column;
+}
+.pos_col label{
+    font-weight: bold;
+    font-size: 14px;
+}
+.pos_col input{
+    padding: 8px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+.pos_col p{
+    font-size: 14px;
+}
+.rue_map{
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.rue_map img{
+    width: 100%;
+
+}
+.surf_habit{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.surf_habit label{
+    font-weight: bold;
+    font-size: 14px;
+}
+.surf_habit .interoga{
+    display: flex;
+    align-items: center;
+    width: 30px;
+    height: 30px;
+    padding: 10px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    font-size: 20px;
+    border: 2px solid black;
+    cursor: pointer;
+    font-weight: bold;
+    margin-bottom: 5px;
+    position: relative;
+}
+.metre_k{
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 10px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    margin-bottom: 40px;
+}
+.metre_k input{
+    width: 90%;
+    padding: 8px 5px;
+    border: none;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+.posture0{
+    position: relative;
+}
+.mod_surf{
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    width: 400px;
+    height: auto;
+    padding: 10px;
+    /* border: 1px solid brown; */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5); 
+    right:-185px;
+    top: 40px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+   
+}
+.mod_surf::after{
+    content: '';
+    position: absolute; 
+    bottom: 100%; /* Positionne le triangle au-dessus de la div */
+    left: 50%; /* Centre le triangle horizontalement */
+    transform: translateX(-50%); /* Centre le triangle */
+    border-left: 10px solid transparent; /* Bord gauche du triangle */
+    border-right: 10px solid transparent; /* Bord droit du triangle */
+    border-bottom: 10px solid rgb(255, 255, 255);
+}
+
+.surf_head{
+    display: flex;
+    justify-content: end;
+}
+.surf_head img{
+    width: 25px;
+    cursor: pointer;
+}
+.surf_contenu h4{
+    font-size: 20px;
+    padding-bottom: 15px;
+}
+.surf_contenu p{
+    line-height: 30px;
+}
+.surf_contenu .last_para{
+    padding: 20px 0;
+    font-style: italic;
+    
+}
+.nbrroomer{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 40px;
+}
+.nbrroomer label{
+    font-weight: bold;
+    font-size: 14px;
+    padding-bottom: 5px;
+}
+.nbrroomer select{
+   padding: 8px 3px;
+   border: 1px solid rgb(196, 195, 195);
+   border-radius: 5px;
+   -webkit-border-radius: 5px;
+   -moz-border-radius: 5px;
+   -ms-border-radius: 5px;
+   -o-border-radius: 5px;
+}
+.const_year{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 50px;
+}
+.const_year label{
+    font-weight: bold;
+    font-size: 14px;
+    padding-bottom: 5px;
+}
+.const_year input{
+    padding: 8px;
+    border: 1px solid rgb(103, 252, 195);
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+.option-container {
+    width: 100%;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 2px solid rgb(179, 179, 179); /*Bordurepardéfaut*/
+    padding: 10px;
+    cursor: pointer;
+    transition: border-color 0.3s, background-color 0.3s; /*Transitionpourl'animation*/
+    margin-bottom: 10px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+.option-container.active {
+    border-color: #007BFF; /* Couleur de la bordure lorsqu'activée */
+    background-color: rgba(0, 123, 255, 0.1); /* Couleur de fond lorsqu'activée */
+}
+.option-container label {
+    color: black; /* Couleur par défaut du label */
+    font-weight: bold;
+}
+.option-container label.active {
+    color: #007BFF; /* Couleur du label lorsqu'activé */
+}
+input[type="radio"] {
+    margin-left: 15px; /* Ajout d'un espace à gauche du bouton radio */
+}
+.input_separe{
+    margin-bottom: 40px;
+}
+.champ_perso{
+    display: flex;
+    flex-direction: column;
+}
+.champ_perso label{
+    font-weight: bold;
+    font-size: 14px;
+    padding-bottom: 5px;
+}
+.champ_perso input{
+    padding: 8px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+.champ_perso .mail_rec{
+    padding: 30px 0;
+    font-weight: bold;
+}
+.champ_perso input[type="email"]{
+    margin-bottom: 30px;
+}
+.colorado{
+    color: rgb(0, 102, 255);
+    font-weight: bold;
+    cursor: pointer;
+}
+.colorado:hover{
+    text-decoration: underline;
+}
+.modal_constently{
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 9999;
+}
+.corp_constent{
+   background-color: #fff;
+   position: absolute;
+   padding: 20px;
+   top: 35%;
+   left: 35%;
+   border-radius: 10px;
+   -webkit-border-radius: 10px;
+   -moz-border-radius: 10px;
+   -ms-border-radius: 10px;
+   -o-border-radius: 10px;
+}
+.constent_head{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 20px;
+    border-bottom: 1px solid gray;
+    margin-bottom: 15px;
+    /* align-items: center; */
+}
+
+.constent_head img{
+    width: 25px;
+    position: absolute;
+    right:  10px;
+    cursor: pointer;
+}
+.contenu_constent p{
+    margin-bottom: 15px;
+    line-height: 25px;
+}
+
+.deuxbtn .effectue{
+    display: none;
+    padding: 8px 20px;
+    border: none;
+    background-color: orange;
+    color: white;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+}
+.deuxbtn .effectue:hover{
+    background-color: rgb(255, 115, 0);
+}
